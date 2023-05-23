@@ -50,12 +50,13 @@ Se llaman primitivos porque son datos que no pueden ser modificados, ya vienen c
 
 */
 
-//Ejemplo para la concatenación
+// Ejemplo para la concatenacion
 
-apododefelipe = "El 'amante número uno' de los chilaquiles verdes";
-console.log(apododefelipe);
+apodoDeFelipe = 'El "amante numero uno" de los chilaquiles verdes';
+console.log(apodoDeFelipe);
 
-//Ejemplos de valores numéricos
+
+// Ejemplos de valores numericos
 
 edadDeFelipe = 31;
 costoDeUnGansito = 18.50;
@@ -65,33 +66,54 @@ console.log(edadDeFelipe);
 console.log(costoDeUnGansito);
 console.log(cuentaDeFelipe);
 
-//Ejemplos de valores booleanos
+
+// Ejempos de valores booleanos
 esAdministrador = true;
-contraneñaCorrecta = false;
+contraseniaCorrecta = false;
 cuentaPremium = false;
 
-//Ejemplos de datos indefinidos
+
+// Ejemplos de datos indefinidos
 //respuestaDeMiCrush;
+//precioBoletoEstacionamiento;
+
+
+
 
 //Ejemplos de valores nulos
+respuestaDeMiCrush = "no";
+
 respuestaDeMiCrush = null;
-respuestaDeMiCrush = "sí";
+
+respuestaDeMiCrush = "si";
+
 console.log(respuestaDeMiCrush);
 
-//Ejemplo con valores NaN
+
+
+// Ejemplo con valores NaN
 
 operacionMatematica = 0/0;
+
 console.log(operacionMatematica);
 
-/* TypeOf
 
-Es una expresión que nos ayuda a saber qué tipo de dato es el que estamos evaluando.
 
-typeof(datoaevaluar);
+/* TypeOf 
+
+Es una expresion que nos ayuda a saber que tipo de dato es el que estamos evaluando
+
+typeof(elDatoAvaluar);
 
 Todos los resultados que arroja son cadenas con el tipo de dato que estamos evaluando.
 
-*/
 
+
+*/
 console.log(typeof(esAdministrador)); //boolean
-console.log(typeof(edadDeFelipe)); //number
+console.log(typeof(edadDeFelipe)); // number
+console.log(typeof(operacionMatematica)); //number
+
+console.log(typeof(false)); //boolean
+
+
